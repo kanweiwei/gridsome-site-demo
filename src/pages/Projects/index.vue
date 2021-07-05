@@ -164,7 +164,7 @@ export default {
     goDetails(id) {
       this.$router.push(`/projects/details/${id}`);
     },
-    goGithub(url) {
+    goGithub(user, repo) {
       window.open(`https://github.com/${user}/${repo}`);
     },
   },
