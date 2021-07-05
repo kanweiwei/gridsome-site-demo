@@ -112,7 +112,7 @@ export default {
       window.open(`https://github.com/${user}/${repo}`);
     },
     more() {
-      this.$router.push("/project");
+      this.$router.push("/projects");
     },
     markdown(html) {
       return md.render(html);
